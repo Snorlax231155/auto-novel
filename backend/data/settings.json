@@ -1,0 +1,19 @@
+{
+  "LLM_PROVIDER": "ollama",
+  "LLM_API_URL": "https://empirical-rico-fire-batman.trycloudflare.com",
+  "LLM_API_KEY": "",
+  "LLM_MODEL": "llama3:8b",
+  "LLM_TEMPERATURE": 0.7,
+  "EMBED_PROVIDER": "local_tfidf",
+  "EMBED_API_URL": "http://localhost:11434",
+  "EMBED_MODEL": "nomic-embed-text",
+  "IMAGE_GEN_PROVIDER": "comfyui",
+  "IMAGE_GEN_URL": "https://tons-express-yacht-armor.trycloudflare.com",
+  "IMAGE_WIDTH": 512,
+  "IMAGE_HEIGHT": 512,
+  "IMAGE_STRENGTH": 0.7,
+  "VIDEO_GEN_PROVIDER": "mock",
+  "VIDEO_GEN_URL": "http://localhost:8189",
+  "ENCRYPT_SAVES": false,
+  "ENCRYPTION_KEY": "visual-novel-secret-key-32chars!"
+}

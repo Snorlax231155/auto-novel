@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+.venv/
+env/
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Production builds
+frontend/dist/
+dist/
+
+# Generated game data and saves (exclude uploads/saves from repo)
+backend/data/assets/*
+backend/data/saves/*
+
+# OS files
+.DS_Store
+Thumbs.db
